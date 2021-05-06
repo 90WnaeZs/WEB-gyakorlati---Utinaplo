@@ -1,0 +1,58 @@
+.cim
+{
+    padding-top:10px;
+    text-align:center;
+}
+
+
+
+.userform
+{
+    background-color:honeydew;
+
+    /* 
+    magát a divet hova helyezi el
+    */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    height:50%;
+    width:50%;
+
+    /* 
+    a div-en belül található elemek pozícionálása
+    */
+    display:grid;
+    place-items:center;
+
+    border:3px solid black;
+    border-radius:25px;
+}
+
+#listaform_div
+{
+    float:left;
+    width:15%;
+    padding:20px;
+    background-color:chartreuse;
+    margin-right:20px;
+    border:2px solid black;
+}
+
+#lista
+{
+    background-color:beige;
+    border:2px solid black;
+}
+
+#username_div
+{
+    background-color:red;
+    float:left;
+    padding:20px;
+    margin-right:20px;
+    border:2px solid black;
+    
+}
